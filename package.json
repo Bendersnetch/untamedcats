@@ -7,7 +7,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "start": "node .output/server/index.mjs"
   },
   "dependencies": {
     "@nuxtjs/i18n": "^8.2.0",
@@ -22,5 +23,8 @@
     "@sidebase/nuxt-pdf": "^1.0.0-alpha.0",
     "better-sqlite3": "^11.0.0",
     "sass": "^1.77.1"
+  },
+  "engines": {
+      "node": "18.x"
   }
 }
