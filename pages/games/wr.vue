@@ -13,7 +13,7 @@ function changeState(index) {
 <template>
   <div class="content">
     <h1 class="page-title">User Guide (Beta)</h1>
-    <img src="public/whiskers_rebellion/logo.png" alt="UntamedCats Logo" class="centered-image">
+    <img src="../workspace/public/whiskers_rebellion/logo.png" alt="UntamedCats Logo" class="centered-image">
 
     <!-- explication du jeu -->
     <div class="card">
@@ -21,7 +21,7 @@ function changeState(index) {
         <h3 class="link-title" @click="changeState(0)">{{ $t('games.wr.presentation.title') }}:</h3>
       </div>
       <div class="card-body" v-show="!(visible.indexOf(0) > -1)">
-        <img src="public/userguide/pegi.png" alt="Presentation Image" class="section-image">
+        <img src="../workspace/public/userguide/pegi.png" alt="Presentation Image" class="section-image">
         <p v-html="$t('games.wr.presentation.contentpresentation')"></p>
       </div>
     </div>
@@ -34,19 +34,19 @@ function changeState(index) {
       <div class="card-body" v-show="!(visible.indexOf(1) > -1)">
         <p>
           Utilisations des flèches directionnelles, haut, bas, droite, gauche pour déplacer le joueur dans la direction souhaitée.
-          <img src="public/userguide/fleches.png" alt="Controls Image" class="inline-image">
+          <img src="../workspace/public/userguide/fleches.png" alt="Controls Image" class="inline-image">
         </p>
         <p>
           Utilisation de la touche espace/space pour interagir avec les différents objets du décors.
-          <img src="public/userguide/space.png" alt="Space Key" class="inline-image">
+          <img src="../workspace/public/userguide/space.png" alt="Space Key" class="inline-image">
         </p>
         <p>
           Utilisation de la touche entrée pour sélectionner/valider dans les menus et les dialogues.
-          <img src="public/userguide/entree.png" alt="Enter Key" class="inline-image">
+          <img src="../workspace/public/userguide/entree.png" alt="Enter Key" class="inline-image">
         </p>
         <p>
           Utilisation de la touche Echap/Escape pour accéder au menu. Les touches sont toutes modifiables dans le menu Option.
-          <img src="public/userguide/esc.png" alt="Escape Key" class="inline-image">
+          <img src="../workspace/public/userguide/esc.png" alt="Escape Key" class="inline-image">
         </p>
       </div>
     </div>
@@ -69,22 +69,22 @@ function changeState(index) {
       <div class="card-body" v-show="!(visible.indexOf(3) > -1)">
         <div>
           <h5 class="sub-title">Swordman:</h5>
-          <img src="public/userguide/swordman.png" alt="Swordman" class="class-image">
+          <img src="../workspace/public/userguide/swordman.png" alt="Swordman" class="class-image">
           <p>{{ $t('games.wr.classes.contentSwordman') }}</p>
         </div>
         <div>
           <h5 class="sub-title">Healeuse:</h5>
-          <img src="public/userguide/healeuse.png" alt="Healer" class="class-image">
+          <img src="../workspace/public/userguide/healeuse.png" alt="Healer" class="class-image">
           <p>{{ $t('games.wr.classes.contentHealer') }}</p>
         </div>
         <div>
           <h5 class="sub-title">Berserk:</h5>
-          <img src="public/userguide/Barbare.png" alt="Berserk" class="class-image">
+          <img src="../workspace/public/userguide/Barbare.png" alt="Berserk" class="class-image">
           <p>{{ $t('games.wr.classes.contentBerserk') }}</p>
         </div>
         <div>
           <h5 class="sub-title">Wizard:</h5>
-          <!-- <img src="public/userguide/wizard.png" alt="Wizard" class="class-image"> -->
+          <!-- <img src="../workspace/public/userguide/wizard.png" alt="Wizard" class="class-image"> -->
           <p>{{ $t('games.wr.classes.contentWizard') }}</p>
         </div>
       </div>
@@ -96,7 +96,7 @@ function changeState(index) {
         <h3 class="link-title" @click="changeState(4)">{{ $t('games.wr.maps.title') }}:</h3>
       </div>
       <div class="card-body" v-show="!(visible.indexOf(4) > -1)">
-        <!-- <img src="public/userguide/map.png" alt="Maps Image" class="section-image"> -->
+        <!-- <img src="../workspace/public/userguide/map.png" alt="Maps Image" class="section-image"> -->
         <p v-html="$t('games.wr.maps.contentmaps')"></p>
       </div>
     </div>
@@ -107,7 +107,7 @@ function changeState(index) {
         <h3 class="link-title" @click="changeState(5)">{{ $t('games.wr.objects.title') }}:</h3>
       </div>
       <div class="card-body" v-show="!(visible.indexOf(5) > -1)">
-        <!-- <img src="public/userguide/objects.png" alt="Objects Image" class="section-image"> -->
+        <!-- <img src="../workspace/public/userguide/objects.png" alt="Objects Image" class="section-image"> -->
         <p v-html="$t('games.wr.objects.contentobject')"></p>
       </div>
     </div>
@@ -118,7 +118,7 @@ function changeState(index) {
         <h3 class="link-title" @click="changeState(6)">{{ $t('games.wr.fight.title') }}:</h3>
       </div>
       <div class="card-body" v-show="!(visible.indexOf(6) > -1)">
-        <!-- <img src="public/userguide/fight.png" alt="Fight Image" class="section-image"> -->
+        <!-- <img src="../workspace/public/userguide/fight.png" alt="Fight Image" class="section-image"> -->
         <p v-html="$t('games.wr.fight.contentfight')"></p>
       </div>
     </div>

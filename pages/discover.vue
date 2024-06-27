@@ -1,11 +1,11 @@
 <script setup>
 
 const teamMembers = ref([
-  { name: 'CLEMENT', role: 'Network System', photo: 'public/members/Clement.jpg' },
-  { name: 'FEDERICO', role: 'Full Stack Dev', photo: 'public/members/Federico.png' },
-  { name: 'THOMAS', role: 'Project Manager', photo: 'public/members/Thomas.jpg' },
-  { name: 'BASTIEN', role: 'Tech Lead', photo: 'public/members/Bastien.jpg' },
-  { name: 'SARAH', role: 'Community Manager', photo: 'public/members/sarah.png' },
+  { name: 'CLEMENT', role: 'Network System', photo: '../workspace/public/members/Clement.jpg' },
+  { name: 'FEDERICO', role: 'Full Stack Dev', photo: '../workspace/public/members/Federico.png' },
+  { name: 'THOMAS', role: 'Project Manager', photo: '../workspace/public/members/Thomas.jpg' },
+  { name: 'BASTIEN', role: 'Tech Lead', photo: '../workspace/public/members/Bastien.jpg' },
+  { name: 'SARAH', role: 'Community Manager', photo: '../workspace/public/members/sarah.png' },
 ]);
 </script>
 
@@ -16,7 +16,7 @@ const teamMembers = ref([
       <p>
         Bienvenue chez Untamed Cats ! Fondé en 2024, notre studio se consacre à la création de jeux vidéo immersifs et uniques. Nous sommes une petite équipe passionnée qui s'inspire des jeux vidéo classiques tout en cherchant à offrir des expériences nouvelles et innovantes.
       </p>
-      <img src="public/cats/Chat4.png" alt="Chat" class="random-cat cat4">
+      <img src="../workspace/public/cats/Chat4.png" alt="Chat" class="random-cat cat4">
     </section>
 
     <section class="history">
@@ -24,7 +24,7 @@ const teamMembers = ref([
       <p>
         Untamed Cats a été fondé par une équipe de développeurs passionnés qui partagent une vision commune : créer des jeux vidéo qui mettent les joueurs au centre de l'expérience. Depuis notre création, nous avons travaillé sans relâche pour développer des jeux qui allient plaisir de jeu, narration immersive et mécaniques innovantes.
       </p>
-      <img src="public/cats/Chat1.png" alt="Chat" class="random-cat cat1">
+      <img src="../workspace/public/cats/Chat1.png" alt="Chat" class="random-cat cat1">
     </section>
 
     <section class="our-work">
@@ -35,7 +35,7 @@ const teamMembers = ref([
       <p>
         Nous croyons que chaque jeu doit offrir quelque chose de spécial, que ce soit à travers son gameplay, son histoire, ou son design. C'est pourquoi nous mettons un point d'honneur à expérimenter et à innover dans chaque aspect de notre travail.
       </p>
-      <img src="public/cats/Chat2.png" alt="Chat" class="random-cat cat2">
+      <img src="../workspace/public/cats/Chat2.png" alt="Chat" class="random-cat cat2">
     </section>
 
     <section class="team">
@@ -50,7 +50,7 @@ const teamMembers = ref([
 
         </div>
       </div>
-      <img src="public/cats/Chat3.png" alt="Chat" class="random-cat cat3">
+      <img src="../workspace/public/cats/Chat3.png" alt="Chat" class="random-cat cat3">
     </section>
   </div>
 </template>
