@@ -107,7 +107,7 @@
   <div class="login-container">
     <div class="login-card" v-if="!isRegistering">
       <h2 class="title">Connexion</h2>
-      <img src="/public/public/cats/Chat3.png" alt="Chat" class="random-cat cat-login">
+      <img src="/public/cats/Chat3.png" alt="Chat" class="random-cat cat-login">
       <form @submit.prevent="handleSubmit">
         <div class="input-group">
           <label for="email">Identifiant:</label>
@@ -119,7 +119,7 @@
         </div>
         <button type="submit" class="login-button">Se connecter</button>
         <button type="button" class="google-button" @click="loginWithGoogle">
-          <img src="/publichttps://img.icons8.com/color/16/000000/google-logo.png"/> Google
+          <img src="https://img.icons8.com/color/16/000000/google-logo.png"/> Google
         </button>
       </form>
       <div class="switch-mode">
