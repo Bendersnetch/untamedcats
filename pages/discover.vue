@@ -1,11 +1,11 @@
 <script setup>
 
 const teamMembers = ref([
-  { name: 'CLEMENT', role: 'Network System', photo: '/members/Clement.jpg' },
-  { name: 'FEDERICO', role: 'Full Stack Dev', photo: '/members/Federico.png' },
-  { name: 'THOMAS', role: 'Project Manager', photo: '/members/Thomas.jpg' },
-  { name: 'BASTIEN', role: 'Tech Lead', photo: '/members/Bastien.jpg' },
-  { name: 'SARAH', role: 'Community Manager', photo: '/members/sarah.png' },
+  { name: 'CLEMENT', role: 'Network System', photo: '/public/members/Clement.jpg' },
+  { name: 'FEDERICO', role: 'Full Stack Dev', photo: '/public/members/Federico.png' },
+  { name: 'THOMAS', role: 'Project Manager', photo: '/public/members/Thomas.jpg' },
+  { name: 'BASTIEN', role: 'Tech Lead', photo: '/public/members/Bastien.jpg' },
+  { name: 'SARAH', role: 'Community Manager', photo: '/public/members/sarah.png' },
 ]);
 </script>
 
