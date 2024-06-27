@@ -12,7 +12,7 @@
                     </div>
         
                     <div class="card-body">
-                        <img src="/ourCats/trilly.jpg " alt="Trilly">
+                        <img src="/public/ourCats/trilly.jpg " alt="Trilly">
                         <p v-html="$t('cats.Trilly')"></p>
                     </div>
                 </div>
@@ -23,7 +23,7 @@
                     </div>
         
                     <div class="card-body">
-                        <img src="/ourCats/gigi.jpg " alt="Gigi">
+                        <img src="/public/ourCats/gigi.jpg " alt="Gigi">
                         <p v-html="$t('cats.Gigi')"></p>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
                     </div>
         
                     <div class="card-body">
-                        <img src="/ourCats/luna.png " alt="Luna">
+                        <img src="/public/ourCats/luna.png " alt="Luna">
                         <p v-html="$t('cats.Luna')"></p>
                     </div>
                 </div>
