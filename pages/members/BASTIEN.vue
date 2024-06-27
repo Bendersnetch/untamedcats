@@ -12,7 +12,7 @@
                     </div>
         
                     <div class="card-body">
-                        <img src="../workspace/public/ourCats/chatouille.jpg " alt="Chatouille">
+                        <img src="/workspace/public/ourCats/chatouille.jpg " alt="Chatouille">
                         <p v-html="$t('cats.Chatouille')"></p>
                     </div>
                 </div>

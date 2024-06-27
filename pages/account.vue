@@ -107,7 +107,7 @@
   <div class="login-container">
     <div class="login-card" v-if="!isRegistering">
       <h2 class="title">Connexion</h2>
-      <img src="../workspace/public/cats/Chat3.png" alt="Chat" class="random-cat cat-login">
+      <img src="/workspace/public/cats/Chat3.png" alt="Chat" class="random-cat cat-login">
       <form @submit.prevent="handleSubmit">
         <div class="input-group">
           <label for="email">Identifiant:</label>
@@ -129,7 +129,7 @@
 
     <div v-if="isRegistering" class="register-card">
       <h2 class="title">Inscription</h2>
-      <img src="../workspace/public/cats/Chat4.png" alt="Chat" class="random-cat cat-register">
+      <img src="/workspace/public/cats/Chat4.png" alt="Chat" class="random-cat cat-register">
       <form @submit.prevent="handleRegister">
         <div class="input-group">
           <label for="firstname">Prénom:</label>
