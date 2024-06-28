@@ -43,7 +43,7 @@ const teamMembers = ref([
       <div class="team-container">
         <div class="team-member" v-for="member in teamMembers" :key="member.name">
           <NuxtLink :to="'/members/' + member.name">
-            <img :src="publicmember.photo" :alt="member.name" class="team-photo">
+            <img :src="member.photo" :alt="member.name" class="team-photo">
             <h4>{{ member.name }}</h4>
             <p>{{ member.role }}</p>
           </NuxtLink>
