@@ -12,7 +12,7 @@ function changeState(index) {
 
 <template>
   <div class="content">
-    <h1 class="page-title">User Guide (Beta)</h1>
+    <h1 class="page-title">User Guide</h1>
     <img src="public/whiskers_rebellion/logo.png" alt="UntamedCats Logo" class="centered-image">
 
     <!-- explication du jeu -->

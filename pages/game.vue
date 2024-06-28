@@ -20,7 +20,7 @@
             <img class="image" src="public/whiskers_rebellion/logo.png"/>
           </div>
         </div>
-        <div v-else class="game-text">
+        <div v-else class="game-text-mobile">
           <img class="image mobile-image" src="public/whiskers_rebellion/logo.png"/>
           <p style="margin-top: 15px;">
             <a class="btn btn-primary" href="wr.zip" target="_blank" download="Whiskers_Rebellion.zip">Télécharger</a>
@@ -47,7 +47,7 @@
           </div>
         </div>
 
-        <div v-else class=" game-text">
+        <div v-else class=" game-text-mobile">
           <img class="image mobile-image" src="public/warriors_cats/Logo.webp"/>
           <p>Warrior Cats: Clan Battles vous plonge dans un monde de félins guerriers où les clans de chats se battent pour le contrôle de leur territoire. <br />Dans ce jeu d'action stratégique, vous devez diriger votre clan, planifier des batailles et forger des alliances pour devenir le clan dominant. Avec des graphismes époustouflants et une histoire captivante, Warrior Cats: Clan Battles offre une expérience de jeu unique et immersive.</p>
         </div>
@@ -65,7 +65,7 @@
     background-attachment: fixed;
     filter: blur(8px);
     -webkit-filter: blur(8px);
-    height: 800px;
+    height: 400px;
   }
 
   .wc-bg {
@@ -76,8 +76,18 @@
     background-attachment: fixed;
     filter: blur(8px);
     -webkit-filter: blur(8px);
-    height: 700px;
+    height: 400px;
   }
+
+  /* @media (max-width: 768px) {
+    .wr-bg {
+      height: 800px;
+    }
+
+    .wc-bg {
+      height: 700px;
+    }
+  } */
 
   .game-text {
     color: white;
@@ -92,7 +102,7 @@
     font-size: larger;
   }
 
-  .game-text {
+  .game-text-mobile {
     text-align: center;
   }
 
