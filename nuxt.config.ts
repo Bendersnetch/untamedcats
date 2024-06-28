@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  mode: 'universal',
   target: 'static',
   devtools: { enabled: false },
   css: ['~/assets/css/style.css'],
@@ -16,4 +17,10 @@ export default defineNuxtConfig({
       title: 'Untamed Cats'
     }
   },
+  build: {
+    extend (config, ctx) {
+      config.resolve = config.resolve || {}
+      config.resolve.symlinks = false
+    }
+  }
 })
