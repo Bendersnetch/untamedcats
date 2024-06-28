@@ -5,7 +5,7 @@
   <div class="content">
     <div class="bottom-margin row">
       <div class="col-md-5">
-        <img class="image" src="public/dashboard/UntamedCats.png"/>
+        <img class="image" src="public/dashboard/untamedCats.png"/>
       </div>
       <div class="col-md-7 ">
         <h3>Untamed Cats</h3>
