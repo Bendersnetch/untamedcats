@@ -5,7 +5,7 @@ const teamMembers = ref([
   { name: 'FEDERICO', role: 'Full Stack Dev', photo: '/members/Federico.png' },
   { name: 'THOMAS', role: 'Project Manager', photo: '/members/Thomas.jpg' },
   { name: 'BASTIEN', role: 'Tech Lead', photo: '/members/Bastien.jpg' },
-  { name: 'SARAH', role: 'Community Manager', photo: '/members/sarah.png' },
+  // { name: 'SARAH', role: 'Community Manager', photo: '/members/sarah.png' },
 ]);
 </script>
 
