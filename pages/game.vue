@@ -10,6 +10,8 @@
         <div class="row game-text">
           <div class="col-9">
             <p>Whiskers Rebellion est le premier jeu de Untamed Cats ! <br />Dans ce jeu les joueurs auront l'occasion de découvrir un monde à la fois fantasy et burlesque.<br /> Ce jeu reprend les codes des traditionnels J-RPG en y apportant une touche d'humour propre au studio ainsi qu'une toute nouvelle manière de jouer à ce genre de jeux : Le coop ! <br />Fini l'époque où un jeu stratégique et classique était réservé à vos sessions de jeux solitaires. Vous allez maintenant pouvoir emmener vos amis dans les aventures rocambolesques de Valéria.</p>
+            <a class="btn btn-primary" href="wr.zip" target="_blank" download="Whiskers_Rebellion.zip">Télécharger</a>
+            <a class="btn btn-primary" style="margin-left: 10px;" href="https://www.oracle.com/fr/java/technologies/downloads/#jdk22-windows" target="_blank">JDK Java</a>
           </div>
           <div class="col-3">
             <img class="image" src="public/whiskers_rebellion/logo.png"/>
