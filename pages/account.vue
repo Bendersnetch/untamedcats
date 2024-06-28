@@ -119,7 +119,7 @@
         </div>
         <button type="submit" class="login-button">Se connecter</button>
         <button type="button" class="google-button" @click="loginWithGoogle">
-          <img src="publichttps://img.icons8.com/color/16/000000/google-logo.png"/> Google
+          <img src="https://img.icons8.com/color/16/000000/google-logo.png"/> Google
         </button>
       </form>
       <div class="switch-mode">
