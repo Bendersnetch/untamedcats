@@ -102,15 +102,15 @@ function changeState(index) {
     </div>
 
     <!-- explications des objets -->
-    <div class="card">
+    <!-- <div class="card">
       <div class="card-nav">
         <h3 class="link-title" @click="changeState(5)">{{ $t('games.wr.objects.title') }}:</h3>
       </div>
       <div class="card-body" v-show="!(visible.indexOf(5) > -1)">
-        <!-- <img src="public/userguide/objects.png" alt="Objects Image" class="section-image"> -->
+        <img src="public/userguide/objects.png" alt="Objects Image" class="section-image">
         <p v-html="$t('games.wr.objects.contentobject')"></p>
       </div>
-    </div>
+    </div> -->
 
     <!-- explication des systèmes de combats -->
     <div class="card">

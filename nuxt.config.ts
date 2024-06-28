@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/style.css'],
   modules: [
     // '@nuxtjs/i18n'
+    '@nuxtjs/device',
     '@sidebase/nuxt-pdf'
   ],
   app: {
